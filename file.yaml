@@ -1,0 +1,22 @@
+file_type: csv
+dataset_name: testfile
+file_name: Log_Problem
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - timestamp_TW
+    - uuid
+    - ucid
+    - upid
+    - problem_number
+    - exercise_problem_repeat_session
+    - is_correct
+    - total_sec_taken
+    - total_attempt_cnt
+    - used_hint_cnt
+    - is_hint_used
+    - is_downgrade
+    - is_upgrade
+    - level
